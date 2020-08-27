@@ -210,7 +210,7 @@ $CDASH_MAX_UPLOAD_QUOTA = '10';
 $CDASH_LARGE_TEXT_LIMIT = '0';
 
 // Settings to enable external authentication using OAuth 2.0.
-// Currently recognized providers are GitHub, GitLab, and Google.
+// Currently recognized providers are GitHub, GitLab, Google, and Azure AD.
 // Example:
 // $OAUTH2_PROVIDERS['GitHub'] = [
 //    'clientId'          => {client-id},

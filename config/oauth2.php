@@ -3,6 +3,7 @@
 use CDash\Middleware\OAuth2\GitHub;
 use CDash\Middleware\OAuth2\GitLab;
 use CDash\Middleware\OAuth2\Google;
+use CDash\Middleware\OAuth2\AzureAD;
 
 return [
     'github' => [
@@ -23,6 +24,14 @@ return [
         'clientSecret' => env('GOOGLE_OAUTH_CLIENT_SECRET'),
         'hostedDomain' => '*',
         'className' => Google::class,
+        'enable' => false,
+    ],
+    'azuread' => [
+        'clientId' => env('AZURE_AD_CLIENT_ID'),
+        'clientSecret' => env('AZURE_AD_CLIENT_SECRET'),
+        'redirectUri' => env('AZURE_AD_REDIRECT_URI'),
+        'resource' => 'https://graph.windows.net',
+        'className' => AzureAD::class,
         'enable' => false,
     ]
 ];
