@@ -29,7 +29,6 @@ return [
     'azuread' => [
         'clientId' => env('AZURE_AD_CLIENT_ID'),
         'clientSecret' => env('AZURE_AD_CLIENT_SECRET'),
-        'redirectUri' => env('AZURE_AD_REDIRECT_URI'),
         'resource' => 'https://graph.windows.net',
         'className' => AzureAD::class,
         'enable' => false,
