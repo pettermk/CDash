@@ -6514,6 +6514,57 @@
             "time": "2019-01-23T18:20:31+00:00"
         },
         {
+            "name": "thenetworg/oauth2-azure",
+            "version": "v1.4.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TheNetworg/oauth2-azure.git",
+                "reference": "1bd78900f8048c9493b6f27a2e4409ee62a5718a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TheNetworg/oauth2-azure/zipball/1bd78900f8048c9493b6f27a2e4409ee62a5718a",
+                "reference": "1bd78900f8048c9493b6f27a2e4409ee62a5718a",
+                "shasum": ""
+            },
+            "require": {
+                "firebase/php-jwt": "~3.0||~4.0||~5.0",
+                "league/oauth2-client": "~2.0",
+                "php": "^5.6|^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "TheNetworg\\OAuth2\\Client\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jan Hajek",
+                    "email": "jan.hajek@thenetw.org",
+                    "homepage": "https://thenetw.org"
+                }
+            ],
+            "description": "Azure Active Directory OAuth 2.0 Client Provider for The PHP League OAuth2-Client",
+            "keywords": [
+                "SSO",
+                "aad",
+                "authorization",
+                "azure",
+                "azure active directory",
+                "client",
+                "microsoft",
+                "oauth",
+                "oauth2",
+                "windows azure"
+            ],
+            "time": "2019-01-23T18:20:31+00:00"
+        },
+        {
             "name": "tightenco/collect",
             "version": "v6.9.0",
             "source": {
